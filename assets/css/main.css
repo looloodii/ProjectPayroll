@@ -1,0 +1,83 @@
+
+
+body {
+	background: #23292D;
+	color: #606468;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+}
+
+.btn-teal{
+	background-color: #00979D;
+	color: #eee;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.btn-teal:hover {
+	background-color: #4CA5A1;
+	color: #eee;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #4CA5A1;
+}
+
+table{
+	margin-top: 25px;;
+	background-color: #393E42;
+}
+
+th{
+	background-color: #265250;
+	color: #DDDDDD;
+	vertical-align: middle;
+	padding: 20px 5px 20px 5px;
+} 
+
+td{
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+label{
+	color: #CCCCCC;
+}
+
+
+div#login {
+	margin-top: 10%
+}
+
+
+div.nav{
+	display: table-cell;
+	height: 50px;
+	vertical-align: middle;
+}
+
+
+form input[type="text"], input[type="password"], input[type="date"], input[type="month"]{
+	background-color: #393E42;
+ 	color: #B3B5B2;
+ 	font-family: Verdana, Geneva, sans-serif;
+	border-radius: 2px;
+	border: none;
+	font-size: 14px;
+	line-height: 200%;
+	
+}
+
+textarea#description {
+	background-color: #393E42;
+ 	color: #B3B5B2;
+ 	border: 0px;
+}
+
+select#employeeName {
+    background-color: #393E42;
+    color: #B3B5B2;
+    border: 0px;
+}
+
